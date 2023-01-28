@@ -13,8 +13,8 @@ function App() {
       <div>
       <Header />
       <Routes>
-        <Route path='/' exact element={Home} />
-        <Route path='/create' exact element={Create} />
+        <Route path='/' exact element={<Home />} />
+        <Route path='/create' exact element={<Create />} />
       </Routes>
       <Footer />
       </div>
