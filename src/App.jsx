@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import {Route, Routes} from 'react-router-dom'
+import {BrowserRouter as Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Create from './pages/Create';
 import Header from "./components/Header";
