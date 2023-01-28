@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import {BrowserRouter as Route, Routes} from 'react-router-dom'
+import {Route, Routes} from 'react-router-dom'
 import Home from './pages/Home';
 import Create from './pages/Create';
 import Header from "./components/Header";
@@ -10,7 +10,6 @@ import './App.css'
 function App() {
   return (
 
-
       <div>
       <Header />
       <Routes>
@@ -19,8 +18,7 @@ function App() {
       </Routes>
       <Footer />
       </div>
-       
+      
   )
 }
-
 export default App
